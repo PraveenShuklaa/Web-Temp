@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Alice;
+    src:url(fonts/Alice-Regular.ttf)
+}
+body{
+    font-family: Alice;
+}
+.wrapper{
+    padding: 2vh 5%;
+}
+table{
+    width: 100%;
+    border: 5px groove;
+}
+th, td{
+    border: 2px groove;
+}
+th{
+    width: 33.33%;
+}
+th h1{
+    background: #000;
+    color: #fff;
+    padding: 1%;
+}
+th h2, th h3{
+    padding: 1%;
+}
+th{
+    background-color: #e1c7d0;
+}
+h2.head{
+    background-color: #360c0c;
+    color: snow;
+}
+td{
+    background-color: #c3eded;
+}
+th h3{
+    color: #550424;
+}
+h2.title{
+    word-spacing: 5px;
+    color: #06004b;
+}
+td{
+    text-align: center;
+    padding: 0.5%;
+}
